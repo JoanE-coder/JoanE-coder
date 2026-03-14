@@ -1,5 +1,9 @@
 # INVENTARIO - Historia de Usuario
 
+## Diagrama de flojo
+
+![alt text](<Diagrama de flujo.png>)
+
 Este programa en **Python** permite registrar la informacion básica de un producto u calcular el costo total de una compra.
 
 ---
