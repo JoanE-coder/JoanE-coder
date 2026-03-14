@@ -1,5 +1,79 @@
 # INVENTARIO - Historia de Usuario
 
+## Guia paso a paso para ejecutar el programa en terminal windows
+
+### **1**. Instalar Python
+
+Primero necesitas intalar Pytioh en tu computadora.
+
+* Ve a la página oficial:
+    https://www.python.org/downloads/
+* Descarga la versión mas reciente de Python
+* Ejecuta el intalador.
+* **MUY IMPORTANTE** antes de hacer clic en intalar, marca la casilla
+* Luego haz clic en **Install Now**
+Cuando termine la intalación, Python quedara lsito para usar.
+
+### **2** Crea el archivo del programa
+
+Ahora debes guardar tu código en un archivo.
+* Abre **bloc de nota**.
+* Copia tu código de python.
+* Guarda el archivo con un nombre como:
+
+``` 
+inventario.py
+
+```
+**MUY IMPORTANTE**:
+Debe terminar en **.py**
+
+### **3**. Abrir la carpeta donde está el archivo
+
+supongamos que el archivo esta en Documentos.
+* Ve a la carpeta donde guardadte el archivo.
+* Haz clic en la barra de direccion de la carpeta.
+* Escribe:
+
+```
+cmd
+
+```
+* Presiona **Enter**.
+Se abrira la terminal directamente en esa carpeta.
+
+### **4**. Ejecuta el programa
+En la terinal escribe:
+
+```
+python inventario.py
+
+```
+
+### Usar el programa
+
+El programa empezara a pedir datos, por ejemplo
+
+```
+Ingrese nombre del producto:
+
+```
+Escribe el nombre y presionas **Enter**.
+
+Luego te pedira:
+
+```
+Precio del producto:
+
+```
+y despues:
+
+```
+Cantidad deseada:
+
+```
+El programa calculara el total automatico
+
 ## Diagrama de flojo
 
 ![alt text](<Diagrama de flujo.png>)
