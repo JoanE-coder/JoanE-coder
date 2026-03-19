@@ -1,0 +1,37 @@
+Hello,
+
+Today I will explain a simple Python program that allows the user to register a product, its price, and its quantity, and then calculate the total cost.
+
+First, the program asks the user to enter the name of the product.
+
+The program uses the input() function to receive information from the user through the keyboard.
+The value entered by the user is stored in a variable called nombre.
+
+Next, the program asks for the price of the product.
+
+To make sure the user enters the correct data, the program uses a while loop with try and except.
+
+The try block attempts to convert the input value into a decimal number using float().
+This is necessary because prices may include decimal values.
+
+If the user enters a valid number, the program stores it in the variable precio and exits the loop using break.
+
+If the user enters an incorrect value, the program displays an error message and asks the user to enter the price again.
+
+After that, the program asks the user to enter the quantity of the product.
+
+Again, the program uses a while True loop with try and except to validate the input.
+
+In this case, the program converts the value to an integer using int() because quantity should be a whole number.
+
+If the user enters invalid data, the program displays an error message and asks for the information again.
+
+Once the program has the price and quantity, it calculates the total cost.
+
+This is done by multiplying the price by the quantity, and the result is stored in the variable costo_total.
+
+Finally, the program prints a summary of the product information, including the product name, price, quantity, and total cost.
+
+This program demonstrates basic programming concepts such as user input, variables, loops, error handling, and mathematical operations in Python.
+
+Thank you.
